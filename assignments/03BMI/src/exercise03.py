@@ -3,7 +3,7 @@
     peso = float(input("Peso en kg: "))
     altura = float(input("Altura en m: "))
     if peso <= 0 or altura <= 0:
-        print ("Revisa tus datos, alguno de ellos esta equivocado.")
+        print ("Revisa tus datos, alguno de ellos es erróneo.")
     else:
         indice = peso / altura**2
         if indice < 20 :
